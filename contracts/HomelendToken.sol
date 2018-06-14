@@ -5,7 +5,7 @@ import './bancor/TokenHolder.sol';
 
 contract HomelendToken is TokenHolder, LimitedTransferBancorSmartToken {
   string public name = "Homelend Token";
-  string public symbol = "HLD";
+  string public symbol = "HMD";
   uint8 public decimals = 18;
 
       function HomelendToken() public {
